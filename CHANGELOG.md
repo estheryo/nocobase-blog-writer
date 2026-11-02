@@ -1,5 +1,16 @@
 # 更新记录
 
+## 2026-11-02 · v1.2
+
+团队决定：默认用官网的 NocoBase 3 说法，同时区分 NocoBase 2 和 NocoBase 3。
+
+- `nocobase-facts.md` 按官网和官方文档重写：NocoBase 3 的标准说法（Core / Studio / Solution）；两个版本的本质区别（配置 vs 代码）和各自的能力、链接、价格；什么时候写 NocoBase 2；两个版本之间的过渡句；官方术语表（agent、业务 Agent、编码工具，不用「智能体」）
+- 💬 栏目说明换成 NocoBase 3 的新版本（旧文章里的「most extensible AI-powered no-code/low-code」不再使用）
+- 只写已经确认的版本信息：NocoBase 3 目前在 GitHub 上标记为 beta，不写成正式版；没有审计日志；NocoBase 2 不能原地升级，不承诺迁移工具
+- 搭建教程先定版本：新教程默认基于 NocoBase 3（Agent 在应用代码仓库里写代码），NocoBase 2 教程要写明版本
+- SEO 关键词和版本的对应：no-code / low-code 类词对应 NocoBase 2，AI coding / Agent 类词对应 NocoBase 3
+- 自检脚本新增版本和术语检查：旧版栏目说明、AI 员工没标 NocoBase 2、把 NocoBase 3 写成无代码或正式版、提到 NocoBase 3 的审计日志、「智能体 / 代理」
+
 ## 2026-11-02 · v1.1
 
 根据第一轮测试（3 个题目，用 Skill / 不用 Skill 各写一篇）修正：

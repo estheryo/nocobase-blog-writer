@@ -150,6 +150,27 @@ def main(path):
     bad_emoji = sorted({e for e in EMOJI_RE.findall(no_code) if e not in ALLOWED_EMOJI})
     check(not bad_emoji, "emoji 只用作功能标记", f"出现装饰性 emoji：{' '.join(bad_emoji)}（只保留 💬💡🎉🚀🔎⭐❤️ 等功能标记）")
 
+    # NocoBase 版本和术语（规则见 references/nocobase-facts.md 第 2、3 节）
+    vissues = []
+    if re.search(r"most extensible AI-powered no-code|极易扩展的 AI 无代码", body):
+        vissues.append("用的是旧版 💬 栏目说明（NocoBase 2 时期），换成 nocobase-facts.md 第 4 节的新版本")
+    has_v2 = re.search(r"NocoBase\s*2", body)
+    if re.search(r"AI Employees?|AI employees?|AI 员工", no_code) and not has_v2:
+        vissues.append("出现「AI 员工 / AI Employees」但全文没有写明 NocoBase 2；NocoBase 3 里叫业务 Agent（business agent）")
+    for s in re.split(r"(?<=[.!?。！？])\s*", no_code):
+        if re.search(r"NocoBase\s*3", s):
+            if re.search(r"(?i)no-code platform|nocode platform|drag-and-drop|drag and drop|无代码平台|拖拽", s) and not re.search(r"NocoBase\s*2", s):
+                vissues.append(f"把 NocoBase 3 和无代码 / 拖拽写在一起：「{' '.join(s.split())[-60:]}…」")
+            if re.search(r"(?i)\bGA\b|generally available|正式版|正式发布", s):
+                vissues.append(f"NocoBase 3 的发布状态以 GitHub releases 为准，不要写成正式版 / GA：「{' '.join(s.split())[-60:]}…」")
+            if re.search(r"(?i)audit log|审计日志", s):
+                vissues.append(f"NocoBase 3 目前没有审计日志：「{' '.join(s.split())[-60:]}…」")
+    if zh:
+        bad_terms = re.findall(r"智能体|(?<!商)代理(?!商)|Coding Agent", no_code)
+        if bad_terms:
+            vissues.append(f"术语：{len(bad_terms)} 处「智能体 / 代理 / Coding Agent」，官方术语写「Agent」「编码工具」")
+    check(not vissues, "NocoBase 版本和术语没有发现问题", "；".join(vissues[:8]))
+
     # 链接与图片
     links = re.findall(r"(?<!!)\[[^\]]*\]\(([^)\s]+)\)", body) + re.findall(r"(?<![(\[])(https?://[^\s)]+)", body)
     internal = {u for u in links if "nocobase.com" in u}

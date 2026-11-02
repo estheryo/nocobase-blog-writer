@@ -129,6 +129,7 @@
 - 英文破折号（—）少用，每千词不超过 1 个；用逗号、冒号或句号代替。不要用破折号制造「戏剧性停顿」
 - 感叹号几乎不用（全栏目 147 篇只有 91 个）
 - 列表项可以用分号结尾（`Sales teams can view …;`），这是栏目里常见的写法
+- 英文正文里 agent 写小写（`agents write the code`），这是官方术语表的规定；标题、产品名和句首照常大写。business agent 指在应用里处理业务的 Agent，NocoBase 2 的文章里才用 AI Employees
 - 流程用箭头单独成行：`Lead → Company account → Opportunity → Quotation → Closed deal`
 - 链接块每项单独一行：`Website: …`、`GitHub: …`、`GitHub Stars: 22.7k`
 - emoji 只做功能标记，各有固定用途：
@@ -182,8 +183,11 @@
 原文：
 > NocoBase 是一款功能强大、灵活高效的无代码平台，能够无缝集成各类数据源，助力企业轻松打造一站式数字化管理系统，实现降本增效。
 
-改写：
-> NocoBase 是一个开源的 AI 无代码平台，常用来搭建 CRM、工单、审批这类企业内部系统。比如，团队可以先建好客户、项目、合同、发票几张关联的数据表，再给销售、财务和管理层分别配置不同的页面和权限。业务变了，字段、页面和工作流都可以在界面里继续调整。
+改写（NocoBase 3）：
+> NocoBase 是用 AI 持续开发和运行业务系统的开源平台。比如采购团队要一套供应商管理系统，Agent 只需要写供应商档案、采购订单、审批规则这些业务部分，权限和审批直接用 NocoBase Core 现成的构件。要写的代码少了，需要审核的地方也少了。
+
+改写（写的是 NocoBase 2 时）：
+> NocoBase 2 是开源的 AI + 无代码开发平台，常用来搭建 CRM、工单、审批这类企业内部系统。比如，团队可以先建好客户、项目、合同、发票几张关联的数据表，再给销售、财务和管理层分别配置不同的页面和权限。业务变了，字段、页面和工作流都可以在界面里继续调整。
 
 ## 8. 中英文两版
 
@@ -191,7 +195,8 @@
 
 - **标题各自本地化**：`How to Choose a Smartsheet Alternative: 7 Tools Compared` → 「7 款 Smartsheet 替代品：适合项目管理与业务流程的工具」
 - 小标题使用对应的中文固定说法（「产品信息」「X 是什么？」「为什么可以作为 X 替代品？」「与 X 的核心差异」「适合哪些团队？」「简介」「核心特点」「适合场景」「引言」「背景」「相关阅读」）
-- 产品名、功能名保留英文（AI Employees 中文写「AI 员工」），中文和英文、数字之间加空格
+- 产品名、功能名保留英文，中文和英文、数字之间加空格
+- 术语按官方术语表（`nocobase-facts.md` 第 3 节）：Agent、业务 Agent（NocoBase 2 里叫「AI 员工」）、编码工具；不写「智能体」「代理」「Coding Agent」
 - 链接换成中文版地址：官网 `https://www.nocobase.com/zh-CN/…`，博客 `https://www.nocobase.com/zh-CN/blog/<slug>/`
 - 💬 栏目说明使用中文版（见 `nocobase-facts.md`）
 - 中文 description 控制在 60–80 个汉字

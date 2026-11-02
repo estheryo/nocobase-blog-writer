@@ -61,6 +61,6 @@ python3 ~/.claude/skills/nocobase-blog-writer/scripts/check_article.py 文章.md
 
 ## 维护说明
 
-- **待团队确认**：文章里用博客现行的「AI 无代码平台」（NocoBase 2）说法，还是官网的 NocoBase 3 说法。目前默认前者，见 `references/nocobase-facts.md`
+- **版本**：文章里的「NocoBase」默认指 NocoBase 3，使用官网说法；写无代码、可视化搭建、AI 员工这类主题时明确写「NocoBase 2」。两个版本的说法、术语、链接、价格都在 `references/nocobase-facts.md`，产品信息有变化时只改这一个文件
 - 文章清单和内链库来自 [nocobase/website-v3](https://github.com/nocobase/website-v3) 的 `homepage/content/blog/posts.json`，新文章多了以后需要重新生成
 - 改动记录见 `CHANGELOG.md`

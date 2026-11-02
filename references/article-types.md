@@ -95,7 +95,7 @@ Related reading:
 - Core features 写三条，格式为 `- 名称 : 一句解释`
   > - Containerized runtime : Agents run in independent containers, making it easier to isolate the file system and runtime environment.
 - Suitable scenarios 写三条，每条是一个具体用法，不写「适合各种企业」
-- NocoBase 这一节可以多 2–4 个要点（AI 参与搭建、AI 员工、无代码继续维护、权限与工作流、从小场景开始），每个要点后面跟一段解释和一个例子
+- NocoBase 这一节可以多 2–4 个要点，每个要点后面跟一段解释和一个例子。NocoBase 3 选这些：现成构件让 Agent 只写业务部分、统一的项目结构和开发规范、变更就是代码、业务 Agent、Studio 的 Agent 团队、自托管。盘点的是无代码工具时，介绍 NocoBase 2，选这些：AI 参与搭建、AI 员工、无代码继续维护、权限与工作流（见 `nocobase-facts.md` 第 2、6 节）
 
 **FAQ**：5–7 题，按「如果我想做 X，该选哪个」来问，每题答案点名 1–2 个项目并说明原因。可以放一题专门问 NocoBase。
 
@@ -131,7 +131,10 @@ Related reading:
 **写法要点**
 - H2 格式固定为「序号. 产品名: For <团队/处境>」，一句话说明这个产品适合谁
 - Key Differences 先讲被替代产品的方式，再讲这个产品的方式：
-  > Smartsheet mainly uses worksheets as the collaboration entry point… NocoBase starts with a data model and then configures pages, permissions, operations, and workflows around that data.
+  > Smartsheet mainly uses worksheets as the collaboration entry point… NocoBase starts with a data model and then configures pages, permissions, operations, and workflows around that data.（这是 NocoBase 2 的写法）
+
+  写 NocoBase 3 时，差异落在「代码和底座」上，比如：
+  > Retool apps are configured inside Retool's builder. With NocoBase 3, the app is a code repository you own: agents write the business parts on Core's building blocks, such as permissions and approvals, and every change can be reviewed, tested, and rolled back.
 - Which Teams 用列表写清条件（「Already use X to manage…」「Need different operating interfaces for…」），竞品也写同样具体的适用团队
 - 诚实写局限：
   > However, teams that rely heavily on Smartsheet's task dependencies, resource management, and project portfolio capabilities should still confirm whether Airtable can cover their existing processes.
@@ -146,6 +149,17 @@ Related reading:
 **标题**：`How to Build a Production-Ready <System> with AI and NocoBase` / `How to Design <System>: Data Model, Lifecycle, and Workflows` / `<System>: Vibe Coding vs NocoBase + AI`
 中文：`如何用 AI 和 NocoBase 搭建一套可投入生产的 X` / `X 系统搭建指南：从需求梳理到落地`
 
+**先定版本**。两个版本的搭建方式完全不同，步骤、截图和术语都不能混写：
+
+| | NocoBase 3（默认） | NocoBase 2 |
+|---|---|---|
+| 搭建方式 | 用 NocoBase 模板创建应用（一个代码仓库），在应用目录里用 Claude Code、Codex 等编码工具描述需求，Agent 写 migration、页面（UI 组件库）、流程（记录生命周期）、权限 | 编码工具通过 CLI / Skills / MCP 连接 NocoBase 2，用 AI Builder 生成，之后在无代码界面里调整 |
+| 检查方式 | 看 Agent 的改动、运行测试、在应用里实际操作；团队协作时用 Studio，Agent 附报告和截图交给人验收 | 在界面里检查数据表、页面和工作流配置 |
+| 业务里的 AI | 业务 Agent（Agents 插件） | AI 员工 |
+| 参考 | docs.nocobase.com 的 Core 入门教程 | nocode.docs.nocobase.com/ai-builder |
+
+2026 年已发布的教程（CRM、IT 运维、工单、汽车租赁）都基于 NocoBase 2。新写的教程默认基于 NocoBase 3；如果要写 NocoBase 2 教程，标题或开头写明「NocoBase 2」。
+
 **骨架**
 
 ```
@@ -158,6 +172,7 @@ Related reading:
 ## 1. Start with Real Business Requirements（从真实业务需求开始）
 （一家具体的示例公司：行业、规模、团队、主要流程）
 Lead → Company account → Opportunity → Quotation → Closed deal     ← 流程箭头单独成行
+### Create the App and Connect Your Coding Tool（创建应用并接入编码工具）    ← NocoBase 3；NocoBase 2 写「Connect an AI Agent to NocoBase」
 ### Describe the Business in Natural Language（把业务情况整理成自然语言）
 ```prompt 代码块```
 ### Confirm AI's Understanding of the Business（确认 AI 对业务的理解）
@@ -166,12 +181,12 @@ Lead → Company account → Opportunity → Quotation → Closed deal     ← �
 ## 3. Turn the Basic <System> into a System the Team Can Actually Use（完善成团队真正使用的系统）
 ### Configure Permissions Around Team Responsibilities（按团队分工设置权限）
 ### Turn Repetitive Rules into Workflows（把日常规则配置成工作流）
-### Configure AI Employees for <场景>（配置 AI 员工）
+### Add Business Agents for <场景>（配置业务 Agent）    ← NocoBase 2 写「Configure AI Employees」（配置 AI 员工）
 ### Keep Adjusting Based on Real Use（根据实际使用继续调整）
 ## 4. Run Through a Complete Real Process（跑通一遍完整流程）
-（流程箭头 + 四个检查问题：数据关系、权限、自动化、AI 员工是否真的有用）
+（流程箭头 + 四个检查问题：数据关系、权限、自动化、业务 Agent 是否真的有用）
 ## Conclusion
-（vibe coding 降低了从 0 到 1 的门槛；AI 负责理解需求和迭代，NocoBase 负责数据、权限、工作流、审计等长期运行的基础）
+（vibe coding 降低了从 0 到 1 的门槛；Agent 负责理解需求、写代码和迭代，NocoBase 提供权限、工作流等底座和统一的架构，人来审核和决策。NocoBase 3 目前没有审计日志，结论里不要提）
 Ready to get started? <链接>
 Related reading
 ```
@@ -215,4 +230,4 @@ Related reading
 **写法要点**
 - 定义句要能单独被引用：主语 + 是什么 + 用来做什么，一段 40–60 词
 - 用「需求」组织文章，不用「产品类别」组织。读者带着问题来，按问题找答案
-- 把 NocoBase 放在最贴近它定位的那个需求下，和同类产品并列介绍
+- 把 NocoBase 放在最贴近它定位的那个需求下，和同类产品并列介绍。NocoBase 3 属于「用 AI / Agent 开发能长期运行的业务系统」；NocoBase 2 属于「AI + 无代码搭建」。同一篇里两个都要出现时，分开放，各自写清版本

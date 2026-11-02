@@ -36,13 +36,14 @@
 - 主关键词出现在：title、H1、前 100 词、至少 2 个 H2、description、至少 1 张图的 alt
 - 次关键词自然分布在小标题和正文里；不堆砌，同一个词每段最多出现一次
 - 在正文里也用读者的说法（`Smartsheet alternative`、`self-hosted CRM`、`open source AI CRM`），不只用我们的品类名
+- 关键词和版本对应：no-code、low-code、Airtable/Smartsheet 替代品这类词，读者要的是无代码工具，对应 NocoBase 2；AI coding、vibe coding、coding agents、Claude Code / Codex、business systems、internal tool framework 这类词对应 NocoBase 3。两类词都想覆盖时，用 `nocobase-facts.md` 第 2 节的过渡句把两个版本连起来，不要把 NocoBase 3 写成无代码平台
 
 ## GEO：让 AI 搜索引擎能引用
 
 AI 引擎（ChatGPT、Perplexity、Google AI Overviews）喜欢引用能独立成立、信息密度高的段落。2026-10 审计时，全站段落的可引用性平均只有 37.6/100。
 
 - **开头先给答案**：TL;DR 或第一段用 40–60 词直接回答标题里的问题
-  > If you are looking for an open source AI CRM, NocoBase offers the deepest AI integration. Its AI employees can understand business context and actively participate in daily operations…
+  > If you are looking for an open source Retool alternative, six projects cover most needs: NocoBase, Appsmith, ToolJet, Budibase, Refine, and Windmill. Appsmith and ToolJet feel closest to Retool's builder. NocoBase starts from the data model and permissions…
 - **定义句**：每个产品或概念的第一句写成「X is a … for …」，不用代词开头
 - **每个主要小节至少有一组 130–170 词的完整回答**：由 2–4 个短段落组成（单段仍然不超过 70 词），合在一起能独立回答一个具体问题，包含具体对象和数字。被 AI 引用时通常整组被摘出，所以这一组里不要依赖前文才能看懂
 - **数字带出处和日期**：`GitHub Stars: 22.7k`，并在交付说明里记录查询日期；价格写明方案名和计费方式

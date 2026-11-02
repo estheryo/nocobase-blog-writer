@@ -18,11 +18,12 @@ description: 按 NocoBase 官网博客「AI & No-Code」栏目的真实写法，
 
 中文版同样如此：2024 年「强大」「灵活」「无缝」「轻松」「高效」随处可见，2026 年几乎消失。
 
-## 三条底线
+## 四条底线
 
 1. **不编造任何事实。** 这个栏目的说服力来自真实信息：真实的 Reddit/HN/X 讨论（带链接）、当天查到的 GitHub Stars、官网公开价格、产品文档里写着的功能。写之前去查（GitHub API、官网、文档、WebSearch）。查不到的就标 `【待核实：…】` 交给人工，绝不臆造帖子、引语、数字或客户案例。AI 写稿最容易在这里出事，一处编造就会毁掉整篇的可信度。
 2. **先具体，后抽象。** 每个判断后面紧跟一个具体例子：真实的业务对象（客户、合同、工单、发票）、真实的角色（销售、财务、项目经理）、真实的流程（`Lead → Opportunity → Quotation → Closed deal`）。泛泛的形容词换成「它能做什么、给谁用、在什么场景」。
 3. **克制、公平地写竞品。** 先客观讲清别人擅长什么，再说差异和局限；推荐 NocoBase 时附上条件（「如果你的目标是 X，可以先看 NocoBase」），不用 best、No.1 这类自封的说法。
+4. **分清 NocoBase 3 和 NocoBase 2。** 文章里的「NocoBase」默认指 NocoBase 3，即官网说法「面向 Agent 的开发平台」：Agent 在 Core 上写代码，Studio 负责治理。NocoBase 2 是「AI + 无代码开发平台」：界面配置，有 AI 员工。两个版本的能力、术语、链接、价格都不一样。写无代码、可视化搭建、AI 员工这类主题时，明确写「NocoBase 2」。规则见 `references/nocobase-facts.md` 第 2 节。
 
 ## 工作流程
 
@@ -34,7 +35,7 @@ description: 按 NocoBase 官网博客「AI & No-Code」栏目的真实写法，
 - **文章类型**：A 开源工具盘点 / B 替代品与对比 / C 搭建教程 / D 概念解读（见下表）
 - **目标读者**：开发者、IT 负责人、业务团队、外包/集成商
 - **语言**：英文、中文，或两版都要（中英文结构一致，标题和措辞各自本地化，见 `references/voice.md`）
-- **NocoBase 的角度**：这篇文章里 NocoBase 解决读者的哪个具体问题，用到哪些能力。产品说法和链接以 `references/nocobase-facts.md` 为准
+- **NocoBase 的角度和版本**：这篇文章里 NocoBase 解决读者的哪个具体问题，用到哪些能力。写的是 NocoBase 3（默认）还是 NocoBase 2（无代码、AI 员工类主题）。产品说法、术语和链接以 `references/nocobase-facts.md` 为准
 - **开头素材**：一条真实的社区讨论或行业现象；没有就去找（Reddit、Hacker News、X、Google Trends）
 
 ### 2. 调研
@@ -110,7 +111,8 @@ author: <作者，写法和官网一致，如 Deng Lijia、Yuan Tianqi、Zhang L
 
 - 栏目说明句（💬 那一行）放在开头场景之后、第一个正文 H2 之前，原文见 `references/nocobase-facts.md`
 - 盘点和对比文里 NocoBase 排第一、写得更深，但小标题结构和其他产品一致，不搞特殊版式
-- 讲 NocoBase 时落到具体能力和具体场景（数据模型、角色权限、工作流、AI 员工、自托管、插件），不写口号
+- 讲 NocoBase 时落到具体能力和具体场景，不写口号。NocoBase 3 常用：现成构件让 Agent 只写业务部分、统一的项目结构和开发规范、变更就是代码（可评审、可回滚）、业务 Agent、Studio、自托管。NocoBase 2 常用：可视化搭建、工作流画布、AI 员工。完整清单见 `references/nocobase-facts.md` 第 6 节
+- 术语按官方术语表：英文正文里 agent 小写，business agent（NocoBase 2 叫 AI employee）；中文写「Agent」「业务 Agent」，不写「智能体」「代理」
 - FAQ 里有 1–2 个问题按使用场景推荐 NocoBase，最后一个问题可以直接问 NocoBase（比如「Is NocoBase only for enterprises?」）
 
 ## 参考文件
