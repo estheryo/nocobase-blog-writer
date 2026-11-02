@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: en-tutorial-onboarding-system
+expected_outcome: |
+  A publish-ready English build tutorial following the "How to Build X with AI and NocoBase" skeleton: TL;DR, background with a real (linked) or clearly marked-for-verification hook, the 💬 blog line, a concrete example company, process arrows, prompts in code blocks, numbered build/check steps with screenshot placeholders and descriptive alt text, permissions/workflows/AI Employees, an end-to-end run-through, a conclusion with a CTA, and Related reading. No invented product features; plain language without AI filler.

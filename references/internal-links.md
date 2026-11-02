@@ -1,0 +1,138 @@
+# 站内文章库（AI & No-Code，用于内链和 Related reading）
+
+按主题分组，每组按日期倒序，最多列 14 篇。生成于 2026-10-30，数据来自 nocobase/website-v3 仓库的 homepage/content/blog/posts.json。
+
+用法：
+- 正文里提到某个主题（CRM、工单、资产管理、Excel 替代……）时，从对应分组挑 1 篇加内链
+- 文末 Related reading 挑 6–12 篇，优先选同组的、日期较新的
+- 中文版文章用「中文」那一列的链接
+- 新文章发布后，可以让 AI 按同样的格式把它加进来
+
+### AI agents & AI tools (roundups)
+
+- 2026-09-04 · [10 Open-Source AI Agent Platforms for Business: From Automation to Internal Apps](https://www.nocobase.com/blog/open-source-ai-agent-platforms-for-business/) · 中文：[10 个适合企业使用的开源 AI Agent 平台：从自动化到内部应用](https://www.nocobase.com/zh-CN/blog/open-source-ai-agent-platforms-for-business/)
+- 2026-06-12 · [14 Open Source AI Agent Tools with the Most GitHub Stars](https://www.nocobase.com/blog/github-open-source-ai-agent-tools-16/) · 中文：[GitHub 上值得关注的 14 个开源 AI Agent 工具](https://www.nocobase.com/zh-CN/blog/github-open-source-ai-agent-tools-16/)
+- 2026-06-10 · [Top 8 Open Source AI Assistant Tools by GitHub Stars](https://www.nocobase.com/blog/top-open-source-ai-assistant-tools-github-stars/) · 中文：[GitHub 上 Stars 最多的 8 个开源 AI Assistant 工具](https://www.nocobase.com/zh-CN/blog/top-open-source-ai-assistant-tools-github-stars/)
+- 2026-06-05 · [6 Open Source Tools to Use with WorkBuddy](https://www.nocobase.com/blog/workbuddy-open-source-tools/) · 中文：[6 个适合搭配 WorkBuddy 使用的开源工具](https://www.nocobase.com/zh-CN/blog/workbuddy-open-source-tools/)
+- 2026-06-03 · [Top 6 Open Source AI Tools by GitHub Stars for Stronger AI Agents](https://www.nocobase.com/blog/6-github-top-open-source-ai-tools-for-ai-agents/) · 中文：[GitHub 上 Stars 最多的 6 个开源 AI 工具：让 AI Agent 更强大](https://www.nocobase.com/zh-CN/blog/6-github-top-open-source-ai-tools-for-ai-agents/)
+- 2026-05-30 · [5 Open-Source Internal Tools to Use with Hermes Agent](https://www.nocobase.com/blog/open-source-internal-tools-self-hosted-ai-agent-hermes/) · 中文：[用 Hermes 提升内部工具效率：5 个开源项目推荐](https://www.nocobase.com/zh-CN/blog/open-source-internal-tools-self-hosted-ai-agent-hermes/)
+- 2026-05-26 · [OpenClaw and 5 Open-Source Tools for Monitoring Business Workflows](https://www.nocobase.com/blog/openclaw-open-source-enterprise-tools/) · 中文：[OpenClaw 如何用于真实业务？推荐 5 个开源工具](https://www.nocobase.com/zh-CN/blog/openclaw-open-source-enterprise-tools/)
+- 2026-05-20 · [What Open-Source Tools Work Well with OpenCode? 5 Projects to Try](https://www.nocobase.com/blog/opencode-open-source-tools-ai-agents/) · 中文：[OpenCode 可以搭配哪些开源工具？5 个适合 AI Agent 的开源项目](https://www.nocobase.com/zh-CN/blog/opencode-open-source-tools-ai-agents/)
+- 2026-05-18 · [Building Internal Tools with Codex: 6 Open-Source Projects for Developers](https://www.nocobase.com/blog/building-internal-tools-with-codex/) · 中文：[别让 Codex 从零生成应用：6 个可组合的开源项目](https://www.nocobase.com/zh-CN/blog/building-internal-tools-with-codex/)
+- 2026-05-13 · [After Claude Code: 6 Open-Source Tools You Should Know](https://www.nocobase.com/blog/open-source-tools-after-claude-code/) · 中文：[在用 Claude Code 之后，你需要这 6 个开源工具](https://www.nocobase.com/zh-CN/blog/open-source-tools-after-claude-code/)
+- 2026-04-30 · [8 Open-Source AI Agent Platforms for Building Internal Tools](https://www.nocobase.com/blog/8-open-source-ai-agent-platforms-for-internal-tools/) · 中文：[企业内部工具必备：8大开源 AI Agent 平台对比](https://www.nocobase.com/zh-CN/blog/8-open-source-ai-agent-platforms-for-internal-tools/)
+- 2026-03-11 · [Top 20 AI Projects on GitHub to Watch in 2026: Not Just OpenClaw](https://www.nocobase.com/blog/best-open-source-ai-projects-github-2026/) · 中文：[2026 年值得关注的 20 个 GitHub AI 项目：不只有 OpenClaw](https://www.nocobase.com/zh-CN/blog/best-open-source-ai-projects-github-2026/)
+- 2025-12-12 · [6 Best Open-Source AI Tools to Build Dashboards](https://www.nocobase.com/blog/6-best-open-source-ai-tools-to-build-dashboards/) · 中文：[6 个最佳开源 AI 仪表盘工具](https://www.nocobase.com/zh-CN/blog/6-best-open-source-ai-tools-to-build-dashboards/)
+- 2025-11-14 · [7 Best Self-Hosted AI Tools for Building Business Apps](https://www.nocobase.com/blog/7-self-hosted-ai-tools-build-business-app/) · 中文：[7 款最佳自托管 AI 工具，快速构建业务应用](https://www.nocobase.com/zh-CN/blog/7-self-hosted-ai-tools-build-business-app/)
+
+### CRM
+
+- 2026-08-10 · [How to Build a Production-Ready CRM with AI and NocoBase](https://www.nocobase.com/blog/build-production-ready-crm-with-ai-and-nocobase/) · 中文：[如何用 AI 和 NocoBase 搭建一套可投入生产的 CRM](https://www.nocobase.com/zh-CN/blog/build-production-ready-crm-with-ai-and-nocobase/)
+- 2026-04-24 · [The Best Enterprise-Grade Self-Hosted CRMs with RBAC, AI, and Open API Support](https://www.nocobase.com/blog/the-best-self-hosted-crm-for-enterprise-teams/) · 中文：[企业级自托管 CRM 推荐（支持 RBAC、AI 和 API）](https://www.nocobase.com/zh-CN/blog/the-best-self-hosted-crm-for-enterprise-teams/)
+- 2026-03-12 · [How to Build a Custom CRM with PostgreSQL](https://www.nocobase.com/blog/how-to-build-a-custom-crm-with-postgresql/) · 中文：[如何用 PostgreSQL 构建一个自定义 CRM](https://www.nocobase.com/zh-CN/blog/how-to-build-a-custom-crm-with-postgresql/)
+- 2026-03-04 · [Best Open Source AI CRM: NocoBase vs Twenty vs Krayin](https://www.nocobase.com/blog/best-ai-crm-open-source-nocobase-twenty-krayin/) · 中文：[GitHub 上开源 CRM AI 能力深度拆解：NocoBase vs Twenty vs Krayin CRM](https://www.nocobase.com/zh-CN/blog/best-ai-crm-open-source-nocobase-twenty-krayin/)
+- 2025-12-21 · [Top 10 Open-source AI CRM Projects with the Most GitHub Stars](https://www.nocobase.com/blog/top-10-open-source-ai-crm-projects-with-the-most-github-stars/) · 中文：[GitHub 上星星数量前 10 的 AI CRM 开源项目](https://www.nocobase.com/zh-CN/blog/top-10-open-source-ai-crm-projects-with-the-most-github-stars/)
+- 2025-08-04 · [8 No-Code Tools to Build a CRM（Open Source & SaaS Compared）](https://www.nocobase.com/blog/8-no-code-tools-to-build-crm/) · 中文：[8 款最适合搭建 CRM 的零代码工具推荐（开源 & SaaS）](https://www.nocobase.com/zh-CN/blog/8-no-code-tools-to-build-crm/)
+- 2025-05-01 · [Top 10 Most-Starred Open-Source ERP and CRM on GitHub](https://www.nocobase.com/blog/top-10-most-starred-open-source-erp-and-crm-on-github/) · 中文：[10 个最受开发者喜爱的开源 ERP / CRM 项目（GitHub Star 榜单）](https://www.nocobase.com/zh-CN/blog/top-10-most-starred-open-source-erp-and-crm-on-github/)
+- 2025-02-11 · [4 Best Open Source CRM Software for Small Businesses: Lightweight & Efficient](https://www.nocobase.com/blog/the-best-4-crm-software-for-small-businesses/) · 中文：[适合小型企业的四款开源 CRM 软件：轻量、高效、易上手](https://www.nocobase.com/zh-CN/blog/the-best-4-crm-software-for-small-businesses/)
+- 2025-01-14 · [⭐️ Top 11 Open-source CRM Projects with the Most GitHub Stars](https://www.nocobase.com/blog/github-open-source-crm-projects/) · 中文：[⭐️ GitHub 上星星数量前 11 的开源 CRM 项目](https://www.nocobase.com/zh-CN/blog/github-open-source-crm-projects/)
+- 2025-01-05 · [Top 4 Custom CRM Case Studies (Helping You Choose a More Flexible CRM Solution)](https://www.nocobase.com/blog/custom-crm-case-studies/) · 中文：[定制 CRM 的4个真实用户案例（帮你选择更灵活CRM产品）](https://www.nocobase.com/zh-CN/blog/custom-crm-case-studies/)
+- 2024-12-18 · [NocoBase vs Salesforce: who is your ideal CRM?](https://www.nocobase.com/blog/nocobase-vs-salesforce/) · 中文：[NocoBase vs Salesforce：谁才是你的理想 CRM？](https://www.nocobase.com/zh-CN/blog/nocobase-vs-salesforce/)
+- 2024-12-12 · [4 Powerful Open Source Alternatives to Salesforce (With Cost Comparison You’ll Love)](https://www.nocobase.com/blog/salesforce-open-source-crmalternative/) · 中文：[四个强大的 Salesforce 开源替代方案（附成本对比）](https://www.nocobase.com/zh-CN/blog/salesforce-open-source-crmalternative/)
+- 2024-08-29 · [Build CRM in Hours: Top No-Code/Low-Code Tools You Need to Know](https://www.nocobase.com/blog/low-code-no-code-crm-builder/) · 中文：[在数小时内构建 CRM：你需要了解的顶级无代码（零代码）/低代码工具](https://www.nocobase.com/zh-CN/blog/low-code-no-code-crm-builder/)
+
+### Ticketing / help desk
+
+- 2026-09-02 · [How to Build a Production-Ready Ticketing System with AI](https://www.nocobase.com/blog/build-production-ready-ticketing-system-with-ai/) · 中文：[如何用 AI 构建可投入生产的工单系统？](https://www.nocobase.com/zh-CN/blog/build-production-ready-ticketing-system-with-ai/)
+- 2026-08-16 · [How to Build a Production-Ready IT Operations System with AI and NocoBase](https://www.nocobase.com/blog/build-it-operations-system-with-ai-nocobase/) · 中文：[如何用 AI 和 NocoBase 在 2 小时内搭建一套企业 IT 运维系统](https://www.nocobase.com/zh-CN/blog/build-it-operations-system-with-ai-nocobase/)
+- 2026-01-29 · [6 Best Open-Source AI Ticketing Systems](https://www.nocobase.com/blog/6-best-open-source-ai-ticketing-systems/) · 中文：[6 个值得关注的开源 AI 工单系统](https://www.nocobase.com/zh-CN/blog/6-best-open-source-ai-ticketing-systems/)
+- 2026-01-27 · [Open-source Zendesk Alternatives: Self-Hosted AI Ticketing Systems](https://www.nocobase.com/blog/open-source-zendesk-alternatives-self-hosted-ai-ticketing-systems/) · 中文：[开源 Zendesk 替代，自部署 AI 工单系统](https://www.nocobase.com/zh-CN/blog/open-source-zendesk-alternatives-self-hosted-ai-ticketing-systems/)
+- 2025-08-20 · [4 Best Open Source No-Code/Low-Code Platforms to Build Ticketing System](https://www.nocobase.com/blog/4-no-code-tools-to-build-ticketing-system/) · 中文：[4 款最适合打造灵活工单系统的开源零代码/低代码平台](https://www.nocobase.com/zh-CN/blog/4-no-code-tools-to-build-ticketing-system/)
+- 2025-05-16 · [6 Best Open-Source Ticketing Systems for 2026](https://www.nocobase.com/blog/open-source-ticketing-systems/) · 中文：[2026 年 6 个最佳开源工单系统推荐](https://www.nocobase.com/zh-CN/blog/open-source-ticketing-systems/)
+
+### IT asset management
+
+- 2026-08-04 · [How to Design an IT Asset Management System: Data Model, Lifecycle, and Workflows](https://www.nocobase.com/blog/enterprise-it-asset-management-system-guide/) · 中文：[企业 IT 资产管理系统搭建指南：从需求梳理到落地](https://www.nocobase.com/zh-CN/blog/enterprise-it-asset-management-system-guide/)
+- 2025-09-09 · [6 No-Code Tools to Build a Flexible ITAM System](https://www.nocobase.com/blog/no-code-itam-system/) · 中文：[6 个最佳无代码 IT 资产管理工具推荐](https://www.nocobase.com/zh-CN/blog/no-code-itam-system/)
+- 2024-12-10 · [Top 8 Open Source IT Asset Management Software for 2026](https://www.nocobase.com/blog/it-asset-management-software/) · 中文：[2026年8款顶级的开源IT资产管理软件](https://www.nocobase.com/zh-CN/blog/it-asset-management-software/)
+
+### Spreadsheet / Excel / Airtable replacement
+
+- 2026-07-23 · [How to Choose a Smartsheet Alternative: 7 Tools Compared](https://www.nocobase.com/blog/best-smartsheet-alternatives/) · 中文：[7 款 Smartsheet 替代品：适合项目管理与业务流程的工具](https://www.nocobase.com/zh-CN/blog/best-smartsheet-alternatives/)
+- 2026-04-16 · [Replace Excel with NocoBase or Airtable? A Cost-by-Cost Comparison](https://www.nocobase.com/blog/airtable-vs-nocobase-migration-cost-comparison/) · 中文：[Airtable 与 NocoBase：从Excel迁移的真实成本对比](https://www.nocobase.com/zh-CN/blog/airtable-vs-nocobase-migration-cost-comparison/)
+- 2026-04-03 · [4 Ways to Quickly Build Web Apps from Excel Data](https://www.nocobase.com/blog/excel-to-web-app-4-methods/) · 中文：[为 Excel 数据快速构建 Web 应用：4 种方法对比](https://www.nocobase.com/zh-CN/blog/excel-to-web-app-4-methods/)
+- 2026-01-10 · [6 Enterprise Softwares to Replace Excel for Internal Operations](https://www.nocobase.com/blog/6-enterprise-softwares-to-replace-excel-for-internal-operations/) · 中文：[6 个替代 Excel 的企业内部管理软件](https://www.nocobase.com/zh-CN/blog/6-enterprise-softwares-to-replace-excel-for-internal-operations/)
+- 2025-12-14 · [How to Quickly Build a Real System to Replace Excel: A Complete Guide](https://www.nocobase.com/blog/how-to-quickly-build-a-real-system-to-replace-excel/) · 中文：[如何快速搭建一个替换 Excel 的系统？（完整指南）](https://www.nocobase.com/zh-CN/blog/how-to-quickly-build-a-real-system-to-replace-excel/)
+- 2025-11-28 · [The 8 Best Google Sheets Alternatives (Specs & Pricing)](https://www.nocobase.com/blog/the-8-best-google-sheets-alternatives-with-full-cost-and-capability-analysis/) · 中文：[8 个最佳 Google Sheets 替代方案（附成本与能力分析）](https://www.nocobase.com/zh-CN/blog/the-8-best-google-sheets-alternatives-with-full-cost-and-capability-analysis/)
+- 2025-07-04 · [NocoBase vs Airtable: A Flexible and Customizable Open-Source Alternative](https://www.nocobase.com/blog/nocobase-vs-airtable/) · 中文：[NocoBase vs Airtable：更灵活的开源替代方案](https://www.nocobase.com/zh-CN/blog/nocobase-vs-airtable/)
+- 2025-06-27 · [Is Airtable Too Expensive? 5 Self-Hosted Alternatives Compared by Cost & Features](https://www.nocobase.com/blog/5-self-hosted-airtable-alternatives/) · 中文：[Airtable 太贵了？5 个自托管替代方案成本&功能对比](https://www.nocobase.com/zh-CN/blog/5-self-hosted-airtable-alternatives/)
+- 2025-06-24 · [Airtable Data Limit Reached: 3 Common Solutions](https://www.nocobase.com/blog/airtable-data-limit-reached-3-common-solutions/) · 中文：[Airtable 的数据超出上限，3 种常见应对方式](https://www.nocobase.com/zh-CN/blog/airtable-data-limit-reached-3-common-solutions/)
+- 2024-10-05 · [Top 7 OSS Airtable Alternatives Ranked by GitHub Stars](https://www.nocobase.com/blog/open-source-airtable-alternatives/) · 中文：[GitHub上 Star 数量最多的 Airtable 开源替代者](https://www.nocobase.com/zh-CN/blog/open-source-airtable-alternatives/)
+
+### Project management
+
+- 2026-03-20 · [Open Source Project Management Tool Selection Guide, 2026 Edition](https://www.nocobase.com/blog/open-source-project-management-tool-selection-guide-2026-edition/) · 中文：[开源项目管理工具选型指南（2026年最新）](https://www.nocobase.com/zh-CN/blog/open-source-project-management-tool-selection-guide-2026-edition/)
+- 2026-02-05 · [5 Most Popular Open-Source AI Project Management Tools on GitHub](https://www.nocobase.com/blog/5-most-popular-open-source-ai-project-management-tools-on-github/) · 中文：[5 个 GitHub 上最受欢迎的开源 AI 项目管理工具](https://www.nocobase.com/zh-CN/blog/5-most-popular-open-source-ai-project-management-tools-on-github/)
+- 2025-09-17 · [Top 10 Open Source Project Management Tools with the Most GitHub Stars](https://www.nocobase.com/blog/github-open-source-project-management-tools/) · 中文：[GitHub 上 Star 数量前 10 的开源项目管理工具](https://www.nocobase.com/zh-CN/blog/github-open-source-project-management-tools/)
+- 2025-09-15 · [Project Management Systems for Small Businesses: Real Needs from Reddit Users](https://www.nocobase.com/blog/project-management-systems-for-small-businesses/) · 中文：[适合小型企业的项目管理系统推荐：Reddit 用户真实需求](https://www.nocobase.com/zh-CN/blog/project-management-systems-for-small-businesses/)
+- 2025-09-08 · [6 Best Open Source Alternatives to Jira](https://www.nocobase.com/blog/jira-open-source-alternatives/) · 中文：[6 个替代 Jira 的开源项目管理工具推荐](https://www.nocobase.com/zh-CN/blog/jira-open-source-alternatives/)
+- 2024-11-11 · [Top 8 Open-Source Projects (Rated) to Build Your Own Task Management System](https://www.nocobase.com/blog/top-8-open-source-projects-to-build-task-management-system/) · 中文：[8 个最佳的开源任务管理系统（附打分）](https://www.nocobase.com/zh-CN/blog/top-8-open-source-projects-to-build-task-management-system/)
+- 2024-09-14 · [5 Best Open-Source No-Code Tools for Project Management](https://www.nocobase.com/blog/project-management-tools/) · 中文：[5 个最佳开源无代码（零代码）项目管理工具](https://www.nocobase.com/zh-CN/blog/project-management-tools/)
+
+### ERP / inventory / business ops
+
+- 2026-10-13 · [How to Use AI for Business Analysis: Sales, Inventory, and Profit Analysis](https://www.nocobase.com/blog/ai-business-analysis-with-nocobase/) · 中文：[如何把 AI 用到经营中？从销售、库存到利润分析](https://www.nocobase.com/zh-CN/blog/ai-business-analysis-with-nocobase/)
+- 2026-10-07 · [How to Start Using AI Without Replacing Existing Business Systems](https://www.nocobase.com/blog/add-ai-to-existing-enterprise-systems-with-nocobase/) · 中文：[企业如何在现有系统中引入 AI？](https://www.nocobase.com/zh-CN/blog/add-ai-to-existing-enterprise-systems-with-nocobase/)
+- 2026-08-22 · [Building an Inventory Management System: Vibe Coding vs NocoBase + AI](https://www.nocobase.com/blog/building-inventory-management-system-vibe-coding-vs-nocobase-ai/) · 中文：[库存管理系统搭建对比：纯 AI 搭建 vs AI 基于 NocoBase 搭建](https://www.nocobase.com/zh-CN/blog/building-inventory-management-system-vibe-coding-vs-nocobase-ai/)
+- 2026-05-07 · [Top 10 Open-Source AI And No-Code Tools for Enterprise Software Development](https://www.nocobase.com/blog/open-source-ai-no-code-tools-enterprise-software-development/) · 中文：[10 个适合企业软件开发的开源 AI 无代码工具](https://www.nocobase.com/zh-CN/blog/open-source-ai-no-code-tools-enterprise-software-development/)
+- 2026-04-10 · [20+ Best Self Hosted Tools for Enterprises with Full Data Control](https://www.nocobase.com/blog/20-best-self-hosted-tools-for-enterprises/) · 中文：[企业自托管工具推荐：数据完全掌控的20+款软件](https://www.nocobase.com/zh-CN/blog/20-best-self-hosted-tools-for-enterprises/)
+- 2026-02-25 · [Top 3 Open Source ERP with AI on GitHub: NocoBase vs Odoo vs ERPNext](https://www.nocobase.com/blog/top-3-open-source-erp-with-ai-on-github-nocobase-vs-odoo-vs-erpnext/) · 中文：[GitHub 上 3 款开源 AI ERP 对比：NocoBase、Odoo 与 ERPNext](https://www.nocobase.com/zh-CN/blog/top-3-open-source-erp-with-ai-on-github-nocobase-vs-odoo-vs-erpnext/)
+- 2026-01-17 · [4 Lightweight Enterprise Software for Business Processes (With Real-World Cases)](https://www.nocobase.com/blog/4-lightweight-enterprise-software-for-business-processes/) · 中文：[4个适合企业业务流程的轻量化软件（附真实案例）](https://www.nocobase.com/zh-CN/blog/4-lightweight-enterprise-software-for-business-processes/)
+- 2025-02-18 · [Best ERP Solutions for Small Businesses: 4 Tools to Improve Efficiency](https://www.nocobase.com/blog/best-erp-solutions-for-small-businesses/) · 中文：[小型企业 ERP 选型指南：这四款软件助你高效管理](https://www.nocobase.com/zh-CN/blog/best-erp-solutions-for-small-businesses/)
+- 2025-02-13 · [Top Inventory System for Small Business (Including Free and Open-Source Options)](https://www.nocobase.com/blog/inventory-management-tools-for-small-business/) · 中文：[适合小型企业的库存管理工具推荐（含免费、开源）](https://www.nocobase.com/zh-CN/blog/inventory-management-tools-for-small-business/)
+
+### Self-hosted & open-source picks
+
+- 2026-01-05 · [10 Open Source Tools Developers Use to Reduce Repetitive CRUD](https://www.nocobase.com/blog/10-open-source-tools-developers-use-to-reduce-repetitive-crud/) · 中文：[开发者收藏！10 个减少重复 CRUD 的开源工具](https://www.nocobase.com/zh-CN/blog/10-open-source-tools-developers-use-to-reduce-repetitive-crud/)
+- 2025-12-28 · [Top 12 Open-source AI Workflows Projects with the Most GitHub Stars](https://www.nocobase.com/blog/top-12-ai-workflows-projects-with-the-most-github-stars/) · 中文：[GitHub Star 数量前 12 的 AI 工作流项目](https://www.nocobase.com/zh-CN/blog/top-12-ai-workflows-projects-with-the-most-github-stars/)
+- 2025-07-14 · [Top 7 Open Source Web Applications with the Most GitHub Stars](https://www.nocobase.com/blog/github-open-source-web-applications/) · 中文：[GitHub 上 Star 数量前 8 的开源 Web 应用项目](https://www.nocobase.com/zh-CN/blog/github-open-source-web-applications/)
+- 2025-05-06 · [Top 8 Open-Source Tools for Web Application Development](https://www.nocobase.com/blog/top-8-open-source-tools-for-web-application-development/) · 中文：[8 大最佳开源工具助力 Web 应用开发](https://www.nocobase.com/zh-CN/blog/top-8-open-source-tools-for-web-application-development/)
+- 2025-04-19 · [Top 40 Open-source Developer Tools with the Most GitHub Stars](https://www.nocobase.com/blog/github-open-source-developer-tools/) · 中文：[GitHub 上 Star 数排名前 40 的开发者工具](https://www.nocobase.com/zh-CN/blog/github-open-source-developer-tools/)
+- 2024-11-21 · [⭐️ Top 10 Open-source Workflows Projects with the Most GitHub Stars](https://www.nocobase.com/blog/top-10-open-source-workflows-projects-with-the-most-github-stars/) · 中文：[⭐️ GitHub Star 数量前十的工作流项目](https://www.nocobase.com/zh-CN/blog/top-10-open-source-workflows-projects-with-the-most-github-stars/)
+- 2024-09-23 · [Best Open-Source Tools for BPM](https://www.nocobase.com/blog/open-source-tools-for-bpm/) · 中文：[BPM（业务流程管理）的最佳开源工具](https://www.nocobase.com/zh-CN/blog/open-source-tools-for-bpm/)
+- 2024-07-30 · [Awesome Self-Hosted Tools You Can Set Up in Minutes](https://www.nocobase.com/blog/the-ultimate-guide-to-awesome-self-hosted-solutions/) · 中文：[终极自托管解决方案指南](https://www.nocobase.com/zh-CN/blog/the-ultimate-guide-to-awesome-self-hosted-solutions/)
+- 2024-07-11 · [The Top 12 Open-Source No-Code Tools with the Most GitHub Stars](https://www.nocobase.com/blog/the-top-12-open-source-no-code-tools-with-the-most-github-stars/) · 中文：[GitHub Star 数量前 12 的开源无代码（零代码）工具](https://www.nocobase.com/zh-CN/blog/the-top-12-open-source-no-code-tools-with-the-most-github-stars/)
+
+### No-code / low-code platforms & comparisons
+
+- 2026-08-11 · [NocoBase vs Baserow: Flexible Databases vs Enterprise Systems](https://www.nocobase.com/blog/nocobase-vs-baserow/) · 中文：[NocoBase vs Baserow：灵活数据库与企业级系统](https://www.nocobase.com/zh-CN/blog/nocobase-vs-baserow/)
+- 2026-07-15 · [5 Open-Source AI No-Code Tools for Complex Relational Data Models](https://www.nocobase.com/blog/open-source-ai-no-code-tools-complex-relational-models/) · 中文：[5 个适合复杂关系模型的开源 AI 无代码工具](https://www.nocobase.com/zh-CN/blog/open-source-ai-no-code-tools-complex-relational-models/)
+- 2026-07-09 · [What Is AI No-Code? A Practical Guide to No-Code Platforms in the AI Era](https://www.nocobase.com/blog/what-is-ai-no-code/) · 中文：[什么是 AI 无代码？AI 时代无代码平台的实用指南](https://www.nocobase.com/zh-CN/blog/what-is-ai-no-code/)
+- 2026-06-29 · [9 Open-Source AI No-Code Tools on GitHub Worth Watching](https://www.nocobase.com/blog/open-source-ai-no-code-tools-github-9/) · 中文：[GitHub 上值得关注的 9 个开源 AI 无代码工具](https://www.nocobase.com/zh-CN/blog/open-source-ai-no-code-tools-github-9/)
+- 2026-04-22 · [6 Best Open-Source Tools to Replace Custom Integration Middleware](https://www.nocobase.com/blog/6-open-source-integration-tools-to-replace-custom-middleware/) · 中文：[告别自研中间件：6个开源系统集成工具推荐](https://www.nocobase.com/zh-CN/blog/6-open-source-integration-tools-to-replace-custom-middleware/)
+- 2026-03-30 · [Not Just PostgreSQL: Comparing 5 No-Code/Low-Code Platforms with External Database Support](https://www.nocobase.com/blog/5-no-code-low-code-platforms-supporting-external-databases-mysql-mongodb-api/) · 中文：[不只 PostgreSQL：5 个支持外部数据库的无代码/低代码平台对比](https://www.nocobase.com/zh-CN/blog/5-no-code-low-code-platforms-supporting-external-databases-mysql-mongodb-api/)
+- 2025-12-22 · [6 Open-Source No-Code & Low-Code Tools for Software Agencies](https://www.nocobase.com/blog/6-open-source-no-code-low-code-tools-for-software-agencies/) · 中文：[最适合外包交付的 6 个开源无代码与低代码](https://www.nocobase.com/zh-CN/blog/6-open-source-no-code-low-code-tools-for-software-agencies/)
+- 2025-12-05 · [Top 5 Open-Source AI Internal Tools on GitHub](https://www.nocobase.com/blog/top-5-open-source-ai-internal-tools-on-github/) · 中文：[GitHub Star 数量前 5 的开源 AI 内部工具](https://www.nocobase.com/zh-CN/blog/top-5-open-source-ai-internal-tools-on-github/)
+- 2025-11-24 · [A Developer’s Technical Decision Guide to No-Code and Low-Code (2026)](https://www.nocobase.com/blog/a-developers-technical-decision-guide-to-no-code-and-low-code/) · 中文：[给开发者的无代码/低代码技术决策指南（2026）](https://www.nocobase.com/zh-CN/blog/a-developers-technical-decision-guide-to-no-code-and-low-code/)
+- 2025-11-23 · [6 Open-Source No/Low-Code Tools for Building PoCs](https://www.nocobase.com/blog/6-open-source-no-low-code-tools-for-building-pocs/) · 中文：[6个适合做 PoC 的开源无代码/低代码工具推荐](https://www.nocobase.com/zh-CN/blog/6-open-source-no-low-code-tools-for-building-pocs/)
+- 2025-10-31 · [6 In-Depth Comparison of RBAC in Enterprise-Grade No-Code/Low-Code Platforms](https://www.nocobase.com/blog/6-in-depth-comparison-rbac-no-code-low-code-platforms/) · 中文：[6 大企业级无代码低代码平台 RBAC 权限体系深度对比](https://www.nocobase.com/zh-CN/blog/6-in-depth-comparison-rbac-no-code-low-code-platforms/)
+- 2025-10-26 · [14 AI-Powered Low-Code Platforms on GitHub Worth Watching](https://www.nocobase.com/blog/14-ai-low-code-platforms-github/) · 中文：[GitHub 上最值得关注的 14 个开源 AI 低代码工具](https://www.nocobase.com/zh-CN/blog/14-ai-low-code-platforms-github/)
+- 2025-09-26 · [6 Open Source Alternatives to Microsoft Access](https://www.nocobase.com/blog/microsoft-access-open-source-alternatives/) · 中文：[6 个替代 Microsoft Access 的开源数据库工具推荐](https://www.nocobase.com/zh-CN/blog/microsoft-access-open-source-alternatives/)
+- 2025-09-02 · [7 Powerful Open Source Alternatives to Zapier](https://www.nocobase.com/blog/zapier-open-source-alternatives/) · 中文：[7 款替代 Zapier 的开源工作流工具推荐](https://www.nocobase.com/zh-CN/blog/zapier-open-source-alternatives/)
+
+### Other
+
+- 2026-09-18 · [How to Build a Real-World Business System with AI and NocoBase: A Car Rental Management Example](https://www.nocobase.com/blog/build-car-rental-management-system-with-ai-and-nocobase/) · 中文：[如何用 AI 和 NocoBase 构建真实业务系统：以汽车租赁管理为例](https://www.nocobase.com/zh-CN/blog/build-car-rental-management-system-with-ai-and-nocobase/)
+- 2026-01-19 · [4 Open Source Data Management Tools for Business Systems](https://www.nocobase.com/blog/4-open-source-data-management-tools-for-business-systems/) · 中文：[4 个值得关注的开源业务数据管理工具](https://www.nocobase.com/zh-CN/blog/4-open-source-data-management-tools-for-business-systems/)
+- 2025-08-21 · [10 Best Open-Source Tools to Build Internal Data Apps](https://www.nocobase.com/blog/open-source-data-apps/) · 中文：[10 个开源工具，快速构建数据应用](https://www.nocobase.com/zh-CN/blog/open-source-data-apps/)
+- 2025-06-18 · [Top 5 Stock Management Systems for Small Businesses (with Price Comparison)](https://www.nocobase.com/blog/stock-management-systems-for-small-businesses/) · 中文：[五款适合小型企业的库存管理系统（含价格对比）](https://www.nocobase.com/zh-CN/blog/stock-management-systems-for-small-businesses/)
+- 2025-01-23 · [5 Management Tools Perfect for Small Businesses (Based on Real Experience)](https://www.nocobase.com/blog/5-management-tools-perfect-for-small-businesses/) · 中文：[五个适合小型企业使用的管理软件！（真实经验）](https://www.nocobase.com/zh-CN/blog/5-management-tools-perfect-for-small-businesses/)
+- 2025-01-21 · [6 Best Employee Management Systems for 2026](https://www.nocobase.com/blog/employee-management-system/) · 中文：[2026年企业必备的 6 款员工管理工具推荐](https://www.nocobase.com/zh-CN/blog/employee-management-system/)
+- 2025-01-10 · [Developing a Plugin to Send WhatsApp Messages in NocoBase](https://www.nocobase.com/blog/developing-a-plugin-to-send-whatsapp-messages/) · 中文：[如何在 NocoBase 中开发插件发送 WhatsApp 消息？](https://www.nocobase.com/zh-CN/blog/developing-a-plugin-to-send-whatsapp-messages/)
+- 2024-12-27 · [Top 5 All-in-One Business Software for 2026](https://www.nocobase.com/blog/all-in-one-business-software/) · 中文：[2026年5个最佳 All-in-One 一体化商业软件](https://www.nocobase.com/zh-CN/blog/all-in-one-business-software/)
+- 2024-12-20 · [Simplified Architecture Governance: Building an Application Catalog with NocoBase](https://www.nocobase.com/blog/building-an-application-catalog-with-nocobase/) · 中文：[简化的架构治理：使用 NocoBase 构建应用程序目录](https://www.nocobase.com/zh-CN/blog/building-an-application-catalog-with-nocobase/)
+- 2024-11-27 · [Top 7 Open Source Rapid Development Platform](https://www.nocobase.com/blog/rapid-development-platform/) · 中文：[国内外十大开源快速开发平台推荐](https://www.nocobase.com/zh-CN/blog/rapid-development-platform/)
+- 2024-11-20 · [How to build apps with NocoBase?](https://www.nocobase.com/blog/build-apps-with-nocobase/) · 中文：[如何使用 NocoBase 构建应用程序？](https://www.nocobase.com/zh-CN/blog/build-apps-with-nocobase/)
+- 2024-11-04 · [The Ultimate Guide to Data Transformation Tools](https://www.nocobase.com/blog/data-transformation-tools/) · 中文：[开源自托管数据管理工具全面指南](https://www.nocobase.com/zh-CN/blog/data-transformation-tools/)
+- 2024-10-29 · [Top 4 Open-source App Builder Tools with the Most GitHub Stars](https://www.nocobase.com/blog/app-builder-tools/) · 中文：[GitHub Star 数量前 4 的开源无代码（零代码）/低代码应用开发平台](https://www.nocobase.com/zh-CN/blog/app-builder-tools/)
+- 2024-10-18 · [5 Workflow Automation Tools Compared: Uses and Trade-offs](https://www.nocobase.com/blog/workflow-automation-tools/) · 中文：[构建工作流自动化的  5  个最佳工具](https://www.nocobase.com/zh-CN/blog/workflow-automation-tools/)

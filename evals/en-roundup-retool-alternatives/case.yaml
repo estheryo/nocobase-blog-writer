@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: en-roundup-retool-alternatives
+expected_outcome: |
+  A publish-ready English alternatives/roundup post in the NocoBase blog's 2026 style: real hook (a verifiable community discussion or concrete scenario), a comparison table before the first product section, the 💬 blog line, NocoBase first with the same section structure as the other tools, fair and specific competitor descriptions, verified GitHub star counts and links, FAQ, share line and Related reading with nocobase.com links. Plain, specific language with no AI filler words. SEO fields (title, slug, description, primary keyword) within the skill's limits.

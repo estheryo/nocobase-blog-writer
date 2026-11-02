@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: zh-comparison-nocobase-vs-appsmith
+expected_outcome: |
+  一篇可直接发布的中文对比文，符合 NocoBase 博客 2026 年的写法：从真实讨论或具体选型场景开头，有 💬 中文栏目说明，按维度对比两款产品并公平描述 Appsmith 的长处，有对比表和 FAQ，结尾按读者情况给出有条件的推荐，文末有相关阅读（zh-CN 链接）。语言具体、克制，没有「赋能、无缝、强大、轻松、打造」这类空洞词；标题、description、主关键词符合技能里的 SEO 要求；GitHub Stars 等数据经过核实或标注【待核实】。
